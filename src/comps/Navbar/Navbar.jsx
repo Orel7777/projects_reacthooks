@@ -81,12 +81,6 @@ return (
       <GrTasks /> AppContextToDo
       </Link>
     </li>
-    <li>
-      <Link onClick={()=>{onClickMove();closeMenu();}} style={{ textDecoration: "none", color: "black" }}
-      to="/graph2">
-      <ImStatsBars /> graph2
-      </Link>
-    </li>
   </ul>
 </div>
 );

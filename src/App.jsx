@@ -10,7 +10,6 @@ import AppVodMovies from './comps/VodMovies/AppVodMovies';
 import VodInfo from './comps/VodMovies/VodInfo'
 import AppToDo from './comps/ToDoList/AppToDo';
 import AppContextToDo from './comps/ToDoListContex/AppContextToDo';
-import Graph from './comps/Graph/Graph';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -37,7 +36,6 @@ export default function App() {
       <Route path='/*' element={<div>
         <h1 className='text-center my-5'>404 Page Not Found</h1>
       </div>}/>
-      <Route path='/graph2' element={<Graph/>}/>
     </Routes>
     </BrowserRouter>
     </div>
