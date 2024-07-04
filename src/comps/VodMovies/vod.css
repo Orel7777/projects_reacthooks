@@ -1,0 +1,9 @@
+.vod{
+    min-height: 150px;
+    background: green;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
